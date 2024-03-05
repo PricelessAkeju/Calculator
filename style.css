@@ -1,0 +1,620 @@
+*{
+padding: 0%;                                                                                                                                                                                                               
+margin: 0%;
+box-sizing: border-box;
+}
+
+#target{
+    border: 1px solid;
+        width: 310px;
+        height: 40px;
+        display: flex;
+        margin-top: 50px;
+        margin-left: 100px;
+        justify-content: space-between; 
+        cursor: pointer;
+}
+#simple{
+    border: 1px solid black;
+    width: 310px;
+    height: 500px;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    background-color: palevioletred;
+    /* margin-top: 10px; */
+    margin-left: 100px;
+    padding-left: 4px;
+
+    & #one{
+        border: 1px solid;
+        width: 300px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+       
+        justify-content: space-between;
+         text-align: center;
+        /* background-color: blue; */
+        padding-left: 30px;
+    }
+    & #two{
+        border: 1px solid;
+        width: 300px;
+        height: 100px;
+        display: flex;
+        background-color: red;
+    }
+    & #three{
+        border: 1px solid;
+        width: 300px;
+        height: 355px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4,1fr);
+        background-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-left: 25px;
+        color: white;
+        
+
+        & #b1{
+            border: 5px solid rgb(94, 92, 92);
+            background-color: rgb(94, 92, 92);
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            color: blue;
+        }
+        & #b2{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b3{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b4{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b5{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b6{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b7{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b8{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b9{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b10{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b11{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b12{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        
+        & #b13{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b14{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b15{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b16{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b17{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b18{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+        & #b19{
+            border: 1px solid black;
+            background-color: brown;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+        }
+        & #b20{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+        }
+    }
+}
+#simple:target{
+    display: block;
+}
+/* simple calculator ends here */
+#scientific{
+    border: 1px solid black;
+    background-color: blue;
+    width: 310px;
+    height: 500px;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-left: 4px;
+
+
+    & #four{
+        border: 1px solid;
+        width: 300px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+       
+        justify-content: space-between;
+         text-align: center;
+        /* background-color: blue; */
+        padding-left: 30px;
+    }
+    & #five{
+        border: 1px solid;
+        width: 300px;
+        height: 70px;
+        display: flex;
+        background-color: red;
+    }
+    & #six{
+        border: 1px solid;
+        width: 300px;
+        height: 405px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(5,1fr);
+        background-color: white;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-left: 25px;
+        /* color: white; */
+
+        & #s1{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s2{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s3{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s4{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s5{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s6{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s7{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s8{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s9{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s10{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s11{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s12{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s13{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s14{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s15{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s16{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s17{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s18{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s19{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s20{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s21{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s22{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s23{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s24{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s25{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s26{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s27{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s28{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s29{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s30{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s31{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s32{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s33{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s34{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+        & #s35{
+            border: 1px solid black;
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: center;
+            background-color: yellow;
+            text-align: center;
+        }
+    }
+}
+#scientific:target{
+    display: block;
+}
